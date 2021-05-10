@@ -5,8 +5,11 @@ import { Provider } from 'react-redux';
 import { createGlobalStyle } from 'styled-components';
 
 import store from './store';
-import App from './components/App';
+// import App from './components/App';
 import reset from './constants/css/reset';
+import NavigationBar from './components/navBar/navbar';
+
+import "bootstrap/dist/css/bootstrap.css";
 
 const GlobalStyle = createGlobalStyle`${reset}`;
 
@@ -14,7 +17,7 @@ ReactDOM.render(
     <BrowserRouter>
         <Fragment>
             <Provider store={store}>
-                <App />
+                <NavigationBar />
             </Provider>
             <GlobalStyle />
         </Fragment>
