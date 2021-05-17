@@ -5,8 +5,8 @@ Frontend of the By Your Side project for the PAE university subject (FIB, UPC).
 
 1. Clone this repo using `https://github.com/AldoFusterTurpin/By-your-side-frontend.git`
 2. Move to the appropriate directory: `cd By-your-side-frontend`.
-3. Run `yarn` or `npm install` to install dependencies.
-4. Run `npm start` to see the example app at `http://localhost:8080`.
+3. Run `docker build -t sample:dev .` to create the image.
+4. Run `docker container run -d -p 8080:80 --name front-end sample:dev` to create the container, you can see your project in `http://localhost:8080`.
 
 ## Commands
 
