@@ -18,4 +18,9 @@ Frontend of the By Your Side project for the PAE university subject (FIB, UPC).
 - `npm run test:watch` - run all tests in watch mode
 - `npm run test:cover` - coverage mode
 - `npm run cypress:open` - starts cypress
-- `execute docker` - docker run -it --rm -v ${PWD}:/app -v /app/node_modules -p 3001:3000 -e CHOKIDAR_USEPOLLING=true sample:dev
+- `create docker image` - docker build -t sample:dev .
+- `execute docker container` - docker container run -d -p 8080:80 --name front-end sample:dev  
+- `To delete the container just run` - docker rm --force front-end
+
+Dockerizing React App:
+https://medium.com/front-end-weekly/dockerizing-react-app-c66d1737bc8c
