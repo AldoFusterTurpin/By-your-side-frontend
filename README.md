@@ -1,3 +1,10 @@
+# Authors
+- Aldo Fuster Turpin (aldo.fuster@estudiantat.upc.edu)
+- Mireia Bosque Marí (mireia.bosque@estudiantat.upc.edu)
+- Marc Almirall Bertran (marc.almirall@estudiantat.upc.edu)
+- Marina Díaz Reyes (marina.diaz@estudiantat.upc.edu)
+
+
 # By-your-side-frontend
 
 Frontend of the By Your Side project for the PAE university subject (FIB, UPC).
